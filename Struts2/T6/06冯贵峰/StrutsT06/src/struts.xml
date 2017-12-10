@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+	<struts>
+        <!-- 	是否加载国际化资源文件 -->
+    <constant name="struts.i18n.reload" value="true"/>
+		<!--     国际化资源文件名称 -->
+	<constant name="struts.custom.i18n.resources" value="locale"/>
+     <!-- 	全局配置 -->
+	  <package name="default" namespace="/" extends="struts-default">
+	    
+	  </package>
+	<!-- 模块化管理包 -->
+	<package name="userManager" extends="default">
+	 <interceptors>
+	   <interceptor-stack name="stack">
+	     <interceptor-ref name="defaultstack">
+	       <param name="validation.excludeMethods">execute,login</param>
+	       <param name="workflow.excludeMethods">execute,login</param>
+	     </interceptor-ref>
+	   </interceptor-stack>
+	 </interceptors>
+	 <default-interceptor-ref name="stack"></default-interceptor-ref>
+	 <action name="execute" class="com.qhit.struts.action.UserAction">
+	 <result name="success">/jap/login.jsp</result>
+	 </action>
+	 <action name="login" class="com.qhit.struts.action.UserAction" method="login">
+	 <result name="loginseccess">/jsp/main.jsp</result>
+	 </action>
+	</package>
+	</struts>
