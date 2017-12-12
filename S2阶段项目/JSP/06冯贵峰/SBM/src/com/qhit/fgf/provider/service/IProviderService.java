@@ -1,9 +1,9 @@
-package com.qhit.wjk.provider.service;
+package com.qhit.fgf.provider.service;
 
 import java.util.List;
 
-import com.qhit.wjk.common.bean.PageBean;
-import com.qhit.wjk.provider.bean.Provider;
+import com.qhit.fgf.common.bean.PageBean;
+import com.qhit.fgf.provider.bean.Provider;
 
 public interface IProviderService {
 	

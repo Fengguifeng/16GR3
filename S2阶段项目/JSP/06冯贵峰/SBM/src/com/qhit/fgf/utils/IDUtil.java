@@ -1,4 +1,4 @@
-package com.qhit.wjk.utils;
+package com.qhit.fgf.utils;
 
 import java.util.UUID;
 

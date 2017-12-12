@@ -1,4 +1,4 @@
-package com.qhit.wjk.common.service;
+package com.qhit.fgf.common.service;
 
 import java.util.List;
 

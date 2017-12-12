@@ -1,4 +1,4 @@
-package com.qhit.wjk.goods.bean;
+package com.qhit.fgf.goods.bean;
 
 /**
  * @author jayli

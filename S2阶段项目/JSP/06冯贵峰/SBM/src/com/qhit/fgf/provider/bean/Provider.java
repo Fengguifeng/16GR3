@@ -1,4 +1,4 @@
-package com.qhit.wjk.provider.bean;
+package com.qhit.fgf.provider.bean;
 
 /**
  * @author jayli

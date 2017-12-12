@@ -1,8 +1,8 @@
-package com.qhit.wjk.common.service;
+package com.qhit.fgf.common.service;
 
 import java.util.List;
 
-import com.qhit.wjk.common.dao.CommonDao;
+import com.qhit.fgf.common.dao.CommonDao;
 
 public class CommonService implements ICommonService {
 

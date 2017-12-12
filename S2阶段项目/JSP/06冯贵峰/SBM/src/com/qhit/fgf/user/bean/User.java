@@ -1,4 +1,4 @@
-package com.qhit.wjk.user.bean;
+package com.qhit.fgf.user.bean;
 
 /**
  * @author jayli

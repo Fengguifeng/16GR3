@@ -1,4 +1,4 @@
-package com.qhit.wjk.goods.servlet;
+package com.qhit.fgf.goods.servlet;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -9,9 +9,9 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.qhit.wjk.goods.bean.Goods;
-import com.qhit.wjk.goods.service.GoodsService;
-import com.qhit.wjk.goods.service.IGoodsService;
+import com.qhit.fgf.goods.bean.Goods;
+import com.qhit.fgf.goods.service.GoodsService;
+import com.qhit.fgf.goods.service.IGoodsService;
 
 public class GoodsServlet extends HttpServlet {
 	private IGoodsService goodsService = new GoodsService();

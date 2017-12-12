@@ -1,9 +1,9 @@
-package com.qhit.wjk.account.bean;
+package com.qhit.fgf.account.bean;
 
 import java.sql.Date;
 
 /**
- * @author jayli
+ * @author 
  * 账单
  */
 public class Account {

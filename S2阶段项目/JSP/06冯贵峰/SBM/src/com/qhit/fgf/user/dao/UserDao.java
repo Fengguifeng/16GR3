@@ -1,14 +1,14 @@
-package com.qhit.wjk.user.dao;
+package com.qhit.fgf.user.dao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-import com.qhit.wjk.account.bean.AccountDetail;
-import com.qhit.wjk.common.bean.PageBean;
-import com.qhit.wjk.user.bean.User;
-import com.qhit.wjk.utils.DBManage;
+import com.qhit.fgf.account.bean.AccountDetail;
+import com.qhit.fgf.common.bean.PageBean;
+import com.qhit.fgf.user.bean.User;
+import com.qhit.fgf.utils.DBManage;
 
 public class UserDao implements IUserDao {
 	private User user = null;

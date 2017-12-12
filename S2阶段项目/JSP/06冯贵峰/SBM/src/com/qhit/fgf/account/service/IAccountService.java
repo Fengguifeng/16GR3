@@ -1,9 +1,9 @@
-package com.qhit.wjk.account.service;
+package com.qhit.fgf.account.service;
 
 import java.util.List;
 
-import com.qhit.wjk.common.bean.PageBean;
-import com.qhit.wjk.goods.bean.Goods;
+import com.qhit.fgf.common.bean.PageBean;
+import com.qhit.fgf.goods.bean.Goods;
 
 public interface IAccountService {
 	

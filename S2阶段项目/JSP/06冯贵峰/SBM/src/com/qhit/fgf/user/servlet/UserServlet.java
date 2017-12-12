@@ -1,4 +1,4 @@
-package com.qhit.wjk.user.servlet;
+package com.qhit.fgf.user.servlet;
 
 import java.io.File;
 import java.io.IOException;
@@ -15,14 +15,14 @@ import javax.servlet.http.HttpServletResponse;
 import com.jspsmart.upload.Request;
 import com.jspsmart.upload.SmartUpload;
 import com.jspsmart.upload.SmartUploadException;
-import com.qhit.wjk.common.bean.PageBean;
-import com.qhit.wjk.common.service.CommonService;
-import com.qhit.wjk.common.service.ICommonService;
-import com.qhit.wjk.user.bean.User;
-import com.qhit.wjk.user.service.IUserService;
-import com.qhit.wjk.user.service.UserService;
-import com.qhit.wjk.utils.CommonUtil;
-import com.qhit.wjk.utils.IDUtil;
+import com.qhit.fgf.common.bean.PageBean;
+import com.qhit.fgf.common.service.CommonService;
+import com.qhit.fgf.common.service.ICommonService;
+import com.qhit.fgf.user.bean.User;
+import com.qhit.fgf.user.service.IUserService;
+import com.qhit.fgf.user.service.UserService;
+import com.qhit.fgf.utils.CommonUtil;
+import com.qhit.fgf.utils.IDUtil;
 
 public class UserServlet extends HttpServlet {
 	

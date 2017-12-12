@@ -1,4 +1,4 @@
-package com.qhit.wjk.provider.dao;
+package com.qhit.fgf.provider.dao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -7,9 +7,9 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.qhit.wjk.common.bean.PageBean;
-import com.qhit.wjk.provider.bean.Provider;
-import com.qhit.wjk.utils.DBManage;
+import com.qhit.fgf.common.bean.PageBean;
+import com.qhit.fgf.provider.bean.Provider;
+import com.qhit.fgf.utils.DBManage;
 
 public class ProviderDao implements IProviderDao {
 	private Connection con = null;

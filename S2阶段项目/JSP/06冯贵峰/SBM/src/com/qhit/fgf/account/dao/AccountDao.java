@@ -1,4 +1,4 @@
-package com.qhit.wjk.account.dao;
+package com.qhit.fgf.account.dao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -7,10 +7,10 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.qhit.wjk.account.bean.AccountDetail;
-import com.qhit.wjk.common.bean.PageBean;
-import com.qhit.wjk.goods.bean.Goods;
-import com.qhit.wjk.utils.DBManage;
+import com.qhit.fgf.account.bean.AccountDetail;
+import com.qhit.fgf.common.bean.PageBean;
+import com.qhit.fgf.goods.bean.Goods;
+import com.qhit.fgf.utils.DBManage;
 
 public class AccountDao implements IAccountDao {
 	

@@ -1,4 +1,4 @@
-package com.qhit.wjk.common.dao;
+package com.qhit.fgf.common.dao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -6,7 +6,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.List;
 
-import com.qhit.wjk.utils.DBManage;
+import com.qhit.fgf.utils.DBManage;
 
 public class CommonDao implements ICommonDao {
 	private Connection con = null;

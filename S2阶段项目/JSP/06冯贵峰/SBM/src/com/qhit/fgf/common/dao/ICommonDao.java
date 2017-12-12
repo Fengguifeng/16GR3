@@ -1,4 +1,4 @@
-package com.qhit.wjk.common.dao;
+package com.qhit.fgf.common.dao;
 
 import java.util.List;
 

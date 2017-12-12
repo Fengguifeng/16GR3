@@ -1,4 +1,4 @@
-package com.qhit.wjk.common.listener;
+package com.qhit.fgf.common.listener;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,7 +6,7 @@ import java.util.List;
 import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;
 
-import com.qhit.wjk.user.bean.User;
+import com.qhit.fgf.user.bean.User;
 
 /**
  * @author admin

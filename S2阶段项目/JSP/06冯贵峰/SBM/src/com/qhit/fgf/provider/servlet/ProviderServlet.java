@@ -1,4 +1,4 @@
-package com.qhit.wjk.provider.servlet;
+package com.qhit.fgf.provider.servlet;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -10,15 +10,15 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.qhit.wjk.common.bean.PageBean;
-import com.qhit.wjk.common.service.CommonService;
-import com.qhit.wjk.common.service.ICommonService;
-import com.qhit.wjk.goods.bean.Goods;
-import com.qhit.wjk.goods.service.GoodsService;
-import com.qhit.wjk.provider.bean.Provider;
-import com.qhit.wjk.provider.service.IProviderService;
-import com.qhit.wjk.provider.service.ProviderService;
-import com.qhit.wjk.user.bean.User;
+import com.qhit.fgf.common.bean.PageBean;
+import com.qhit.fgf.common.service.CommonService;
+import com.qhit.fgf.common.service.ICommonService;
+import com.qhit.fgf.goods.bean.Goods;
+import com.qhit.fgf.goods.service.GoodsService;
+import com.qhit.fgf.provider.bean.Provider;
+import com.qhit.fgf.provider.service.IProviderService;
+import com.qhit.fgf.provider.service.ProviderService;
+import com.qhit.fgf.user.bean.User;
 
 public class ProviderServlet extends HttpServlet {
 	private IProviderService providerService = new ProviderService();

@@ -1,10 +1,10 @@
-package com.qhit.wjk.provider.dao;
+package com.qhit.fgf.provider.dao;
 
 import java.util.List;
 
-import com.qhit.wjk.common.bean.PageBean;
-import com.qhit.wjk.provider.bean.Provider;
-import com.qhit.wjk.user.bean.User;
+import com.qhit.fgf.common.bean.PageBean;
+import com.qhit.fgf.provider.bean.Provider;
+import com.qhit.fgf.user.bean.User;
 
 public interface IProviderDao {
 	

@@ -1,6 +1,6 @@
-package com.qhit.wjk.goods.dao;
+package com.qhit.fgf.goods.dao;
 
-import com.qhit.wjk.goods.bean.Goods;
+import com.qhit.fgf.goods.bean.Goods;
 
 public interface IGoodsDao {
 

@@ -1,12 +1,12 @@
-package com.qhit.wjk.goods.dao;
+package com.qhit.fgf.goods.dao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-import com.qhit.wjk.goods.bean.Goods;
-import com.qhit.wjk.utils.DBManage;
+import com.qhit.fgf.goods.bean.Goods;
+import com.qhit.fgf.utils.DBManage;
 
 public class GoodsDao implements IGoodsDao {
 	Connection con = null;

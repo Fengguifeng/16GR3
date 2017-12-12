@@ -1,6 +1,6 @@
-package com.qhit.wjk.goods.service;
+package com.qhit.fgf.goods.service;
 
-import com.qhit.wjk.goods.bean.Goods;
+import com.qhit.fgf.goods.bean.Goods;
 
 public interface IGoodsService {
 	/**

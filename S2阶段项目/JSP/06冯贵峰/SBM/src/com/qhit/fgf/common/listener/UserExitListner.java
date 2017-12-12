@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.qhit.wjk.common.listener;
+package com.qhit.fgf.common.listener;
 
 import java.util.List;
 
@@ -10,7 +10,7 @@ import javax.servlet.http.HttpSession;
 import javax.servlet.http.HttpSessionEvent;
 import javax.servlet.http.HttpSessionListener;
 
-import com.qhit.wjk.user.bean.User;
+import com.qhit.fgf.user.bean.User;
 
 /**
  * @author admin

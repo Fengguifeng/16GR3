@@ -1,7 +1,7 @@
-package com.qhit.wjk.goods.service;
+package com.qhit.fgf.goods.service;
 
-import com.qhit.wjk.goods.bean.Goods;
-import com.qhit.wjk.goods.dao.GoodsDao;
+import com.qhit.fgf.goods.bean.Goods;
+import com.qhit.fgf.goods.dao.GoodsDao;
 
 public class GoodsService implements IGoodsService {
 

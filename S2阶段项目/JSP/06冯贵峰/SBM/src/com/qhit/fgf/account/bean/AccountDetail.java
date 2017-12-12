@@ -1,4 +1,4 @@
-package com.qhit.wjk.account.bean;
+package com.qhit.fgf.account.bean;
 
 import java.util.Date;
 

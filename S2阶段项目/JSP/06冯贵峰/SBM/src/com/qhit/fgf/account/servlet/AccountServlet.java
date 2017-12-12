@@ -1,4 +1,4 @@
-package com.qhit.wjk.account.servlet;
+package com.qhit.fgf.account.servlet;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -11,12 +11,12 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.qhit.wjk.account.service.AccountService;
-import com.qhit.wjk.account.service.IAccountService;
-import com.qhit.wjk.common.bean.PageBean;
-import com.qhit.wjk.common.service.CommonService;
-import com.qhit.wjk.common.service.ICommonService;
-import com.qhit.wjk.goods.bean.Goods;
+import com.qhit.fgf.account.service.AccountService;
+import com.qhit.fgf.account.service.IAccountService;
+import com.qhit.fgf.common.bean.PageBean;
+import com.qhit.fgf.common.service.CommonService;
+import com.qhit.fgf.common.service.ICommonService;
+import com.qhit.fgf.goods.bean.Goods;
 
 public class AccountServlet extends HttpServlet {
 	private ICommonService commonService = new CommonService();

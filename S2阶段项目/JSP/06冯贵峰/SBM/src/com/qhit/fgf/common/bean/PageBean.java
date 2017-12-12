@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.qhit.wjk.common.bean;
+package com.qhit.fgf.common.bean;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,8 +1,8 @@
-package com.qhit.wjk.user.service;
+package com.qhit.fgf.user.service;
 
-import com.qhit.wjk.common.bean.PageBean;
-import com.qhit.wjk.user.bean.User;
-import com.qhit.wjk.user.dao.UserDao;
+import com.qhit.fgf.common.bean.PageBean;
+import com.qhit.fgf.user.bean.User;
+import com.qhit.fgf.user.dao.UserDao;
 
 public class UserService implements IUserService {
 	/* (non-Javadoc)
